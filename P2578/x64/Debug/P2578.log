@@ -1,0 +1,4 @@
+﻿  P2578.cpp
+C:\Users\火之流岚\source\repos\Luogu2\P2578\P2578.cpp(114,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\火之流岚\source\repos\Luogu2\P2578\P2578.cpp(141,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  P2578.vcxproj -> C:\Users\火之流岚\source\repos\Luogu2\x64\Debug\P2578.exe

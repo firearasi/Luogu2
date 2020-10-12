@@ -1,0 +1,2 @@
+﻿  Test.cpp
+C:\Users\火之流岚\source\repos\Luogu2\Test\Test.cpp(18,2): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

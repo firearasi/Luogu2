@@ -1,0 +1,4 @@
+﻿  P1278.cpp
+C:\Users\火之流岚\source\repos\Luogu2\P1278\P1278.cpp(26,29): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\火之流岚\source\repos\Luogu2\P1278\P1278.cpp(32,29): warning C4267: “-=”: 从“size_t”转换到“int”，可能丢失数据
+  P1278.vcxproj -> C:\Users\火之流岚\source\repos\Luogu2\x64\Debug\P1278.exe
