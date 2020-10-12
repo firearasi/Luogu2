@@ -12,7 +12,7 @@ using namespace std;
 int m, n, k;
 vector<vector<int>> cherries;
 int d[20][20][20][20];
-int countD[21][21];
+int countD[22][22];
 
 
 int count(int i, int j)
@@ -41,38 +41,38 @@ int count(int i0, int i1, int j0, int j1)
 
 int solve(int i0, int i1, int j0, int j1, int num)
 {
-	tuple<int, int, int, int> tup = { i0,i1,j0,j1 };
-	if (d[i0][i1][j0][j1] != -1)
+	int& ans = d[i0][i1][j0][j1];
+	if (ans != -1)
 	{
-		return d[i0][i1][j0][j1];
+		return ans;
 	}
 
-	if (count(i0, i1, j0, j1) <= 1)
+	if (num <= 1)
 	{
-		d[i0][i1][j0][j1] = 0;
+		ans = 0;
 	}
 	else
 	{
-		d[i0][i1][j0][j1] = numeric_limits<int>::max();
-		for (int i = i0 + 1; i < i1 - 1; i++)
+		ans = numeric_limits<int>::max();
+		for (int i = i0 + 1; i < i1 ; i++)
 		{
 			int c = count(i0, i, j0, j1);
 			if (c && c < num)
-				d[i0][i1][j0][j1] = min(d[i0][i1][j0][j1], j1 - j0 + solve(i0, i, j0, j1, c) + solve(i, i1, j0, j1, num - c));
+				ans = min(ans, j1 - j0 + solve(i0, i, j0, j1, c) + solve(i, i1, j0, j1, num - c));
 		}
-		for (int j = j0 + 1; j < j1 - 1; j++)
+		for (int j = j0 + 1; j < j1; j++)
 		{
 			int c = count(i0, i1, j0, j);
 			if (c && c < num)
-				d[i0][i1][j0][j1] = min(d[i0][i1][j0][j1], i1 - i0 + solve(i0, i1, j0, j, c) + solve(i0, i1, j, j1, num - c));
+				ans = min(ans, i1 - i0 + solve(i0, i1, j0, j, c) + solve(i0, i1, j, j1, num - c));
 		}
-		if (d[i0][i1][j0][j1] == numeric_limits<int>::max())
+		/*if (ans == numeric_limits<int>::max())
 		{
-			d[i0][i1][j0][j1] = 0;
-		}
+			ans = 0;
+		}*/
 	}
 
-	return d[i0][i1][j0][j1];
+	return ans;
 }
 
 
