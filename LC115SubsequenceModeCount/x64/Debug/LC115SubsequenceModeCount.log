@@ -1,0 +1,4 @@
+﻿  LC115SubsequenceModeCount.cpp
+C:\Users\火之流岚\source\repos\Luogu2\LC115SubsequenceModeCount\LC115SubsequenceModeCount.cpp(53,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\火之流岚\source\repos\Luogu2\LC115SubsequenceModeCount\LC115SubsequenceModeCount.cpp(54,1): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  LC115SubsequenceModeCount.vcxproj -> C:\Users\火之流岚\source\repos\Luogu2\x64\Debug\LC115SubsequenceModeCount.exe
