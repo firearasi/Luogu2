@@ -1,14 +1,1 @@
-﻿  P1379.cpp
-C:\Users\火之流岚\source\repos\Luogu2\P1379\P1379.cpp(87,1): warning C4267: “=”: 从“size_t”转换到“_Ty2”，可能丢失数据
-          with
-          [
-              _Ty2=int
-          ]
-C:\Users\火之流岚\source\repos\Luogu2\P1379\P1379.cpp(89,1): warning C4267: “=”: 从“size_t”转换到“_Ty2”，可能丢失数据
-          with
-          [
-              _Ty2=int
-          ]
-C:\Users\火之流岚\source\repos\Luogu2\P1379\P1379.cpp(110,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\火之流岚\source\repos\Luogu2\P1379\P1379.cpp(133,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-  P1379.vcxproj -> C:\Users\火之流岚\source\repos\Luogu2\x64\Debug\P1379.exe
+﻿  P1379.vcxproj -> C:\Users\火之流岚\source\repos\Luogu2\x64\Debug\P1379.exe

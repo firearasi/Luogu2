@@ -15,7 +15,7 @@ vector<pair<int, int>> cherries;
 int main()
 {
 	std::ios::sync_with_stdio(false);
-	freopen_s("c:\\input\\UVa1629.txt", "r", stdin);
+	//freopen_s("c:\\input\\UVa1629.txt", "r", stdin);
 	int m, n, k;
 	int kase = 0;
 	while (cin >> m >> n >> k)
